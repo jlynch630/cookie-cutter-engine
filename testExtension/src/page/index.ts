@@ -9,6 +9,7 @@ import { IActivationStatus } from 'popup/activationStatus';
 import { getAllPreferences, getHostname } from 'common/preferences';
 
 // setup
+CookieEngine.useVerboseLogging();
 CookieEngine.flagSite(async () => {
     /* can make testing difficult, so disable feature */
 });
