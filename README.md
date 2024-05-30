@@ -1,14 +1,12 @@
 <!--
- Copyright 2022 Neeva Inc. All rights reserved.
+ Copyright 2024 John Lynch. All rights reserved.
  Use of this source code is governed by a BSD-style license that can be
  found in the LICENSE file.
 -->
 
 # Cookie Cutter Engine
 
-This is the engine that powers Neeva's Cookie Cutter extension, available on the [Chrome Web Store](https://chrome.google.com/webstore/detail/cookie-cutter-by-neeva/idcnmiefjmnabbchggljinkeiinlolon) and [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/cookie-cutter-by-neeva/).
-
-It's responsible for automatically answering GDPR, CCPA, and related cookie notices on the web according to user preferences.
+This engine powers automatically answering GDPR, CCPA, and related cookie notices on the web according to user preferences by means of a Web Extension.
 
 ## Structure
 
@@ -19,11 +17,7 @@ This repository is split up into two parts:
 
 ## Contributing
 
-If you'd like to contribute, awesome! Please take a look at the [contributor guidelines](./CONTRIBUTING.md) first.
-
--   If you'd like to add support for a new provider, check out [Adding a Provider](https://github.com/neevaco/cookie-cutter-engine/wiki/Adding-A-Provider)
--   If you want to make changes to the general engine logic, check out [Engine](https://github.com/neevaco/cookie-cutter-engine/wiki/Engine)
--   If you're not sure what to contribute, take a look at the [Issues](https://github.com/neevaco/cookie-cutter-engine/issues) page for ideas.
+If you'd like to contribute, great! Please take a look at the [contributor guidelines](./CONTRIBUTING.md) first.
 
 ## Building
 

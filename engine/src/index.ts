@@ -1,4 +1,4 @@
-// Copyright 2022 Neeva Inc. All rights reserved.
+// Copyright 2024 John Lynch. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -127,7 +127,7 @@ async function handleProvider(provider: IProvider): Promise<boolean> {
 // Try to flag if the site triggers a reload after being activated.
 // If it does, stop activating the extension on that site.
 const flagWaitMs = 2000; // time to wait before ignoring page reloads
-const pendingFlag = 'neeva_pending_flag';
+const pendingFlag = 'cookie_cutter_pending_flag';
 function tryFlagReloads(): void {
     const handler = async (): Promise<void> => {
         const hostname = await getHostname();

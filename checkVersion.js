@@ -1,4 +1,4 @@
-// Copyright 2022 Neeva Inc. All rights reserved.
+// Copyright 2024 John Lynch. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 // Compares the version of the local package.json to the version on npmjs and ensures they are different for publishing

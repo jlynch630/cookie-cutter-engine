@@ -1,5 +1,5 @@
 {
-    "name": "@neevaco/cookie-cutter-engine",
+    "name": "cookie-cutter-engine",
     "version": "0.0.3",
     "main": "engine/dist/engine.js",
     "typings": "engine/dist/engine.d.ts",
@@ -15,14 +15,14 @@
         "format": "prettier --write '{**/*.ts,**/*.tsx}'",
         "ensure-version": "node ./checkVersion.js"
     },
-    "author": "",
+    "author": "John Lynch",
     "license": "BSD-3-Clause",
     "dependencies": {
-        "@types/chrome": "^0.0.180",
-        "@types/psl": "^1.1.0",
         "psl": "^1.8.0"
     },
     "devDependencies": {
+        "@types/chrome": "^0.0.180",
+        "@types/psl": "^1.1.0",
         "@babel/core": "^7.17.7",
         "@babel/preset-env": "^7.16.11",
         "@babel/preset-typescript": "^7.16.7",
